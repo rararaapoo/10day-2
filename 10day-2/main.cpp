@@ -568,7 +568,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 					if (map[playerMapY - 1][playerMapX] == YUKA)
 					{
 						map[playerMapY][playerMapX] = YUKA;
-						map[playerMapY - 1][playerMapX] = I;　//　ここをUに変える　したも同じ
+						map[playerMapY - 1][playerMapX] = I; //ここをUに変える　したも同じ
 						if (map[1][27] == BLOCK1)
 						{
 							map[playerMapY][playerMapX] = BLOCK1;
