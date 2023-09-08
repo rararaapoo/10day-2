@@ -518,12 +518,13 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
 					if (map[playerMapY - 1][playerMapX] == BLOCK1)
 					{
-						map[1][27] = BLOCK1;
-						map[playerMapY][playerMapX] = YUKA;
-						map[playerMapY - 1][playerMapX] = I;
-						playerPosY -= playerSpeed;
-
+							map[1][27] = BLOCK1;
+							map[playerMapY][playerMapX] = YUKA;
+							map[playerMapY - 1][playerMapX] = I;
+							playerPosY -= playerSpeed;
+						
 					}
+					
 					if (map[playerMapY - 1][playerMapX] == BLOCK2)
 					{
 						map[1][27] = BLOCK2;
@@ -601,6 +602,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 								map[1][27] = YUKA;
 							}
 						}
+
 						if (map[1][27] != BLOCK22)
 						{
 							if (map[1][27] == BLOCK22)
