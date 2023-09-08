@@ -449,7 +449,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 					{
 						map[playerMapY][playerMapX] = YUKA;
 						map[playerMapY - 1][playerMapX] = I;
-						if (map[1][27] != BLOCK1)
+						if (map[1][27] != BLOCK1 || map[1][27] == BLOCK1)
 						{
 							if (map[1][27] == BLOCK1)
 							{
